@@ -1,0 +1,26 @@
+{
+  "name": "shop-agent-saas",
+  "version": "1.0.0",
+  "description": "门店AI Agent SaaS系统 - 企业级Express后端",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "pm2": "pm2 start ecosystem.config.js",
+    "test": "jest --verbose --forceExit"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.3.0"
+  }
+}
